@@ -17,8 +17,8 @@
 
  #calculator-container {
 
-     max-height: 500px;
-     max-width: 25rem;
+     height: 500px;
+     width: 25rem;
      border: 2px solid transparent;
      border-radius: 5px;
      display: flex;
