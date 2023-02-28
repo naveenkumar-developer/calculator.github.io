@@ -107,6 +107,7 @@
 
      #calculator-container {
          max-height: 100%;
+          max-width: 31.25rem;
      }
 
      .display {
