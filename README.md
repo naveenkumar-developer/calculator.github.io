@@ -16,7 +16,7 @@ This is a simple calculator built using HTML, CSS, and JavaScript. It supports b
 ---
 
 ## Demo:
- Open the project click [here]("")
+ Open the project click [here](https://naveenkumar-developer.github.io/calculator.github.io/)
 ![calculator img](images/calculator.png)
 
 ---
