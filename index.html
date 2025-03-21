@@ -11,26 +11,39 @@
 
 <body>
     <div id="calculator-container">
-        <input type="text" id="result" class="display" disabled><br>
-        <button type="button" value="C" class="oprator box " onclick="clearResult()">C</button type="button">
-        <button type="button" value="/" class="oprator box" onclick="appendToResult('/')">/</button>
-        <button type="button" value="%" class="oprator box" onclick="appendToResult('%')">%</button>
-        <button type="button" value="*" class="oprator box" onclick="appendToResult('*')">*</button>
+        <h1>Calculator</h1>
+        <div class="row1">
+            <input type="text" id="result" class="display" disabled><br>
+        </div>
+        <div class="row2">
+            <button type="button" value="C" class="oprator box " onclick="clearResult()">C</button type="button">
+                <button type="button" value="/" class="oprator box" onclick="appendToResult('/')">/</button>
+                <button type="button" value="%" class="oprator box" onclick="appendToResult('%')">%</button>
+                <button type="button" value="*" class="oprator box" onclick="appendToResult('*')">*</button>
+        </div>
+        <div class="row3">
         <button type="button" value="7" class="number box" onclick="appendToResult('7')">7</button>
         <button type="button" value="8" class="number box" onclick="appendToResult('8')">8</button>
         <button type="button" value="9" class="number box" onclick="appendToResult('9')">9</button>
         <button type="button" value="-" class="oprator box" onclick="appendToResult('-')">-</button>
+        </div>
+        <div class="row3">
         <button type="button" value="4" class="number box" onclick="appendToResult('4')">4</button>
         <button type="button" value="5" class="number box" onclick="appendToResult('5')">5</button>
         <button type="button" value="6" class="number box" onclick="appendToResult('6')">6</button>
         <button type="button" value="+" class="oprator box" onclick="appendToResult('+')">+</button>
-        <button type="button" value="1" class="number box" onclick="appendToResult('1')">1</button>
-        <button type="button" value="2" class="number box" onclick="appendToResult('2')">2</button>
-        <button type="button" value="3" class="number box" onclick="appendToResult('3')">3</button>
-        <button type="button" value="." class="oprator box" onclick="appendToResult('.')"><b>.</b></button>
-        <button type="button" value="00" class="number box" onclick="appendToResult('00')">00</button>
-        <button type="button" value="0" class="number box" onclick="appendToResult('0')">0</button>
-        <button type="button" value="=" class="oprator equal box" onclick="calculateResult()">=</button>
+        </div>
+        <div class="row4">
+                <button type="button" value="1" class="number box" onclick="appendToResult('1')">1</button>
+                <button type="button" value="2" class="number box" onclick="appendToResult('2')">2</button>
+                <button type="button" value="3" class="number box" onclick="appendToResult('3')">3</button>
+                <button type="button" value="." class="oprator box" onclick="appendToResult('.')">.</button>
+        </div>
+        <div class="row5">
+                <button type="button" value="00" class="number box" onclick="appendToResult('00')">00</button>
+                <button type="button" value="0" class="number box" onclick="appendToResult('0')">0</button>
+                <button type="button" value="=" class="oprator equal box" onclick="calculateResult()">=</button>
+        </div>
     </div>
     <script src="./calculator.js"></script>
 </body>
